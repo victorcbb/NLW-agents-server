@@ -62,12 +62,22 @@ docker-compose up -d
 ### 5. Rodar as migrations e seed
 
 ```bash
-npx drizzle-kit migrate
+npm run db:generate
 ```
+
+Gera SQL migrations baseadas no drizzle schema.
+
+```bash
+npm run db:migrate
+```
+
+Aplica no banco de dados as SQL migrations geradas.
 
 ```bash
 npm run db:seed
 ```
+
+Popula o banco de dados com informações fictícias.
 
 ### 6. Iniciar o servidor
 
