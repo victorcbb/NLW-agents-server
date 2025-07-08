@@ -8,6 +8,13 @@
       "when": 1751976676328,
       "tag": "0000_amazing_vector",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1751999848268,
+      "tag": "0001_pretty_warbound",
+      "breakpoints": true
     }
   ]
 }
