@@ -62,6 +62,10 @@ docker-compose up -d
 ### 5. Rodar as migrations e seed
 
 ```bash
+npx drizzle-kit migrate
+```
+
+```bash
 npm run db:seed
 ```
 
@@ -83,8 +87,14 @@ A API estará disponível em `http://localhost:3333`.
 
 ---
 
+## Endpoints
+
+- `GET /health` - Health check da aplicação
+- `GET /rooms` - Lista salas
+
+---
+
 ## Observações
 
 - O projeto utiliza Drizzle ORM com PostgreSQL e a extensão pgvector.
 - O seed do banco cria 20 salas fictícias para testes.
-- O endpoint principal disponível é `/rooms` (GET).
