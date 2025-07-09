@@ -7,6 +7,7 @@ GET {{baseUrl}}/health
 ###
 
 # GET rooms
+# @name getRooms
 GET {{baseUrl}}/rooms
 
 ###
@@ -19,3 +20,11 @@ content-type: application/json
   "name": "Sala de teste",
   "description": "Descrição da sala de teste"
 }
+
+###
+
+# GET room questions
+
+@roomId = {{getRooms.response.body.$[1].id}}
+
+GET {{baseUrl}}/rooms/{{roomId}}/questions
