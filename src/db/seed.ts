@@ -13,6 +13,12 @@ await seed(db, schema).refine((faker) => {
         description: faker.loremIpsum(),
       },
     },
+    questions: {
+      count: 20,
+      columns: {
+        question: faker.loremIpsum(),
+      },
+    },
   }
 })
 
