@@ -15,6 +15,20 @@
       "when": 1751999848268,
       "tag": "0001_pretty_warbound",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752167839121,
+      "tag": "0002_panoramic_jack_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752174604113,
+      "tag": "0003_quick_expediter",
+      "breakpoints": true
     }
   ]
 }
