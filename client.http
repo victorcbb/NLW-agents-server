@@ -32,9 +32,9 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 ###
 
 # POST questions
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/7feaea24-f78e-473b-9474-e73b54e59cab/questions
 content-type: application/json
 
 {
-  "question": "Pergunta de teste"
+  "question": "O que é vue.js e sua diferença em relação ao Angular?"
 }
